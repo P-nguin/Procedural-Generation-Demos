@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://1khigbr1h70d"]
+
+[ext_resource type="Texture2D" uid="uid://iqeqrv21nbx1" path="res://assets/tiles.png" id="1_dyav6"]
+[ext_resource type="Script" path="res://scripts/Map_generator.gd" id="2_lsrti"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wmdhv"]
+texture = ExtResource("1_dyav6")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ilc5x"]
+sources/0 = SubResource("TileSetAtlasSource_wmdhv")
+
+[node name="Map Generator" type="TileMap"]
+tile_set = SubResource("TileSet_ilc5x")
+format = 2
+script = ExtResource("2_lsrti")

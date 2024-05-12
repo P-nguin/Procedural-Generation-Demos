@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715545491
+icon.svg::CompressedTexture2D::5627699092215632395::1714593272::1715545492::1::::<><>::
+::res://assets/::1714679088
+tiles.png::CompressedTexture2D::594813160442618964::1714679088::1715545492::1::::<><>::
+::res://scenes/::1715545060
+character.tscn::PackedScene::2472821241118753973::1715545060::0::1::::<><>::res://scripts/Character.gd
+game.tscn::PackedScene::3793231376599024002::1715544975::0::1::::<><>::uid://1khigbr1h70d::::res://scenes/map_generator.tscn<>uid://bbh4afjem5xv6::::res://scenes/character.tscn
+map_generator.tscn::PackedScene::1845993334922409357::1715544975::0::1::::<><>::uid://iqeqrv21nbx1::::res://assets/tiles.png<>res://scripts/Map_generator.gd
+::res://scripts/::1715545046
+Character.gd::GDScript::-1::1715047344::0::1::::<>CharacterBody2D<>::
+Map_generator.gd::GDScript::-1::1715545046::0::1::::<>TileMap<>::
